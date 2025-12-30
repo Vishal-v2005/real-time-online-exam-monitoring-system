@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Analysis</title>
+    <link rel="stylesheet" href="/myproject/myproject/css/style.css">
+</head>
+<body>
+    <div class="analysis-container">
+        <div class="summary-card">
+            <h1>Quiz Results</h1>
+            <div class="score-display" id="scoreDisplay">0%</div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-value" id="correctCount">0</div>
+                    <div class="stat-label">Correct</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="incorrectCount">0</div>
+                    <div class="stat-label">Incorrect</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="totalQuestions">0</div>
+                    <div class="stat-label">Total Questions</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="percentageScore">0%</div>
+                    <div class="stat-label">Score</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="breakdown-section">
+            <h2>Question Breakdown</h2>
+            <div id="questionBreakdown">
+                <!-- Question reviews will be inserted here -->
+            </div>
+        </div>
+
+        <div class="action-buttons">
+            <button class="btn btn-primary" onclick="retakeQuiz()">Retake Quiz</button>
+            <button class="btn btn-secondary" onclick="backToLogin()">Back to Login</button>
+        </div>
+    </div>
+
+    <script src="/myproject/myproject/js/quiz.js"></script>
+</body>
+</html>
+

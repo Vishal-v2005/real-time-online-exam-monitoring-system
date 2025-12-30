@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Quiz Portal</title>
+    <link rel="stylesheet" href="/myproject/myproject/css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-card">
+            <h1>Welcome to Quiz Portal</h1>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+            
+            <div class="face-detection-section">
+                <button id="faceDetectionBtn" class="btn btn-secondary">Face Detection</button>
+                <div id="webcamContainer" class="webcam-container" style="display: none;">
+                    <div style="position: relative; display: inline-block;">
+                        <video id="webcam" autoplay playsinline></video>
+                        <canvas id="faceCanvas" style="position: absolute; top: 0; left: 0; pointer-events: none;"></canvas>
+                    </div>
+                    <div id="faceStatus" class="face-status"></div>
+                    <button id="stopWebcamBtn" class="btn btn-small">Stop Camera</button>
+                </div>
+            </div>
+            
+            <div id="errorMessage" class="error-message"></div>
+        </div>
+    </div>
+
+    <script src="/myproject/myproject/js/facedetection.js"></script>
+    <script src="/myproject/myproject/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "question": "What does HTML stand for?",
+        "options": [
+            "HyperText Markup Language",
+            "High-Level Text Markup Language",
+            "Home Tool Markup Language",
+            "Hyperlink and Text Markup Language"
+        ],
+        "correct": 0,
+        "category": "HTML Basics"
+    },
+    {
+        "id": 2,
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+            "<link>",
+            "<a>",
+            "<href>",
+            "<url>"
+        ],
+        "correct": 1,
+        "category": "HTML Basics"
+    },
+    {
+        "id": 3,
+        "question": "What is the correct HTML element for the largest heading?",
+        "options": [
+            "<h6>",
+            "<head>",
+            "<h1>",
+            "<heading>"
+        ],
+        "correct": 2,
+        "category": "HTML Basics"
+    },
+    {
+        "id": 4,
+        "question": "Which attribute is used to define inline styles in HTML?",
+        "options": [
+            "styles",
+            "style",
+            "class",
+            "font"
+        ],
+        "correct": 1,
+        "category": "HTML Basics"
+    },
+    {
+        "id": 5,
+        "question": "What does CSS stand for?",
+        "options": [
+            "Computer Style Sheets",
+            "Creative Style Sheets",
+            "Cascading Style Sheets",
+            "Colorful Style Sheets"
+        ],
+        "correct": 2,
+        "category": "CSS Basics"
+    },
+    {
+        "id": 6,
+        "question": "Which CSS property is used to change the text color?",
+        "options": [
+            "text-color",
+            "color",
+            "font-color",
+            "text-style"
+        ],
+        "correct": 1,
+        "category": "CSS Basics"
+    },
+    {
+        "id": 7,
+        "question": "Which CSS property is used to change the background color?",
+        "options": [
+            "bgcolor",
+            "background-color",
+            "color",
+            "background"
+        ],
+        "correct": 1,
+        "category": "CSS Basics"
+    },
+    {
+        "id": 8,
+        "question": "How do you select an element with id 'demo' in CSS?",
+        "options": [
+            ".demo",
+            "#demo",
+            "demo",
+            "*demo"
+        ],
+        "correct": 1,
+        "category": "CSS Selectors"
+    },
+    {
+        "id": 9,
+        "question": "Which property is used to change the font of an element?",
+        "options": [
+            "font-family",
+            "font-style",
+            "font-weight",
+            "text-font"
+        ],
+        "correct": 0,
+        "category": "CSS Typography"
+    },
+    {
+        "id": 10,
+        "question": "How do you make text bold in CSS?",
+        "options": [
+            "font-weight: bold;",
+            "style: bold;",
+            "text: bold;",
+            "font: bold;"
+        ],
+        "correct": 0,
+        "category": "CSS Typography"
+    }
+]
+
